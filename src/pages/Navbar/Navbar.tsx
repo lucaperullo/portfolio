@@ -14,6 +14,7 @@ import SwiperCore, { Mousewheel, EffectCoverflow } from "swiper";
 import Home from "../../pages/Home/Home";
 import Projects from "../../pages/Projects/Projects";
 import Tecnologies from "../../pages/Tecnologies/Tecnologies";
+import Contacts from "../../pages/Contacts/Contacts";
 
 // install Swiper modules
 SwiperCore.use([Mousewheel, EffectCoverflow]);
@@ -21,7 +22,7 @@ SwiperCore.use([Mousewheel, EffectCoverflow]);
 export default function Navbar() {
   return (
     <Box transition=".3s ease">
-      <Box as="main" p="4">
+      <Box>
         <div style={{ height: "100vh" }}>
           <Swiper
             effect={"coverflow"}
@@ -48,8 +49,10 @@ export default function Navbar() {
             <SwiperSlide>
               <Projects />
             </SwiperSlide>
-            <SwiperSlide>About Me</SwiperSlide>
-            <SwiperSlide>Contacts</SwiperSlide>
+            {/* <SwiperSlide>About Me</SwiperSlide> */}
+            <SwiperSlide>
+              <Contacts />
+            </SwiperSlide>
           </Swiper>
         </div>
       </Box>

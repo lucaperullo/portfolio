@@ -13,25 +13,30 @@ export default function Home() {
   return (
     <Flex
       style={{ padding: "200px" }}
-      bg={useColorModeValue("#F9FAFB", "gray.600")}
+      bg={useColorModeValue("rgb(31, 27, 58)", "gray.600")}
       w="full"
       justifyContent="center"
       alignItems="center"
     >
       <div>
-        <chakra.h2 fontSize={{ base: "6xl", md: "4xl" }}>HI, I AM</chakra.h2>
+        <chakra.h2
+          color={useColorModeValue("gray.100", "white")}
+          fontSize={{ base: "6xl", md: "4xl" }}
+        >
+          HI, I AM
+        </chakra.h2>
         <chakra.h1
           mb={3}
           fontSize={{ base: "6xl", md: "6xl" }}
           fontWeight="bold"
           lineHeight="shorter"
-          color={useColorModeValue("gray.900", "white")}
+          color={useColorModeValue("gray.100", "white")}
         >
           LUCA PERULLO
         </chakra.h1>
         <chakra.p
           mb={2}
-          fontSize="xs"
+          fontSize="md"
           fontWeight="semibold"
           letterSpacing="wide"
           color="gray.400"
@@ -54,7 +59,7 @@ export default function Home() {
       </Flex>
       <img
         className="arrowDown"
-        src="https://bikeroll.net/it/img/ic_dropdown.svg"
+        src="https://www.sanimedicalcenter.it/wp-content/uploads/2020/02/1ad9d5b8fa1f63c26a71bda135c5a4ef_homearrow.png"
         alt=""
       />
     </Flex>

@@ -1,6 +1,9 @@
 body {
   overflow: hidden;
 }
+.mySwiper {
+  background-color: rgb(31, 27, 58);
+}
 .swiper {
   width: 100%;
   height: 100%;
@@ -34,10 +37,11 @@ body {
 }
 .welcome-image {
   position: absolute;
-  bottom: 0;
-  height: 300px !important;
-  width: 300px !important;
+  bottom: 0px;
+  height: 350px !important;
+  width: 350px !important;
   z-index: 1;
+  filter: drop-shadow(100px 10px 10px rgba(0, 0, 0, 0.5));
 }
 
 .project-image {
@@ -51,7 +55,16 @@ body {
   width: 250px !important;
   left: 0px;
 }
+.contacts-swosh {
+  position: absolute;
+  left: 100px;
+  height: 350px !important;
+  width: 350px !important;
+  filter: drop-shadow(40px 40px 10px rgba(0, 0, 0, 0.5));
+}
+
 .arrowDown {
+  cursor: move;
   position: absolute;
   height: 100px !important;
   width: 100px !important;
