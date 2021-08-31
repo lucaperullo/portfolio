@@ -17,13 +17,12 @@ export default function Home() {
       w="full"
       justifyContent="center"
       alignItems="center"
-      pos="absolute"
     >
       <div>
-        <chakra.h2 fontSize={{ base: "6xl", md: "4xl" }}>Hi, I am</chakra.h2>
+        <chakra.h2 fontSize={{ base: "6xl", md: "4xl" }}>HI, I AM</chakra.h2>
         <chakra.h1
           mb={3}
-          fontSize={{ base: "4xl", md: "4xl" }}
+          fontSize={{ base: "6xl", md: "6xl" }}
           fontWeight="bold"
           lineHeight="shorter"
           color={useColorModeValue("gray.900", "white")}
@@ -38,7 +37,7 @@ export default function Home() {
           color="gray.400"
           textTransform="uppercase"
         >
-          FULL STACK DEVELOPER
+          MERN FULL STACK DEVELOPER
         </chakra.p>
       </div>
       <Flex py={36}>
@@ -46,13 +45,18 @@ export default function Home() {
           <div>
             <img
               className="welcome-image"
-              src="https://media.discordapp.net/attachments/702215602106007573/882369153363742800/AREmoji_20210831_204843_447.gif?width=703&height=703"
+              src="https://media.discordapp.net/attachments/702215602106007573/882377063909191740/lookhere-removebg-preview.png"
             ></img>
           </div>
 
           <chakra.p mb={5} color="gray.100" fontSize={{ md: "lg" }}></chakra.p>
         </Box>
       </Flex>
+      <img
+        className="arrowDown"
+        src="https://bikeroll.net/it/img/ic_dropdown.svg"
+        alt=""
+      />
     </Flex>
   );
 }

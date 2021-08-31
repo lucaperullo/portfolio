@@ -1,3 +1,6 @@
+body {
+  overflow: hidden;
+}
 .swiper {
   width: 100%;
   height: 100%;
@@ -36,12 +39,7 @@
   width: 300px !important;
   z-index: 1;
 }
-.vibin-video {
-  position: relative;
-  top: 0px;
-  right: 100px;
-  height: 200px;
-}
+
 .project-image {
   min-height: 375px;
   min-width: 375px;
@@ -52,4 +50,19 @@
   position: relative !important;
   width: 250px !important;
   left: 0px;
+}
+.arrowDown {
+  position: absolute;
+  height: 100px !important;
+  width: 100px !important;
+  bottom: 0;
+  animation: upanddown 2s infinite alternate-reverse;
+}
+@keyframes upanddown {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 100px;
+  }
 }
