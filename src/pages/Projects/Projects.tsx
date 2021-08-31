@@ -1,10 +1,4 @@
-import {
-  Flex,
-  useColorModeValue,
-  Box,
-  chakra,
-  SimpleGrid,
-} from "@chakra-ui/react";
+import { Flex, useColorModeValue, Box, chakra } from "@chakra-ui/react";
 import React from "react";
 import "swiper/css/effect-cube";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,13 +7,6 @@ SwiperCore.use([EffectCube]);
 export default function Projects() {
   return (
     <>
-      {/* <video
-        className="vibin-video"
-        autoPlay
-        muted
-        loop
-        src="./vibin.mp4"
-      ></video> */}
       <Swiper
         style={{ minWidth: "375px" }}
         effect={"cube"}
@@ -30,7 +17,6 @@ export default function Projects() {
           shadowOffset: 20,
           shadowScale: 0.94,
         }}
-        pagination={true}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -56,6 +42,7 @@ export default function Projects() {
                   fontWeight="bold"
                   textTransform="uppercase"
                   color={useColorModeValue("gray.800", "white")}
+                  fontSize={{ base: "3xl", sm: "4xl" }}
                   letterSpacing={1}
                 >
                   Ourmusic
@@ -63,7 +50,7 @@ export default function Projects() {
               </a>
               <a href="https://ourmusic.vercel.app/" target="blank">
                 <chakra.button
-                  bg="gray.800"
+                  bg="rgb(71, 83, 248)"
                   fontSize="xs"
                   fontWeight="bold"
                   color="white"
@@ -72,10 +59,10 @@ export default function Projects() {
                   rounded="lg"
                   textTransform="uppercase"
                   _hover={{
-                    bg: useColorModeValue("gray.700", "gray.600"),
+                    bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
                   }}
                   _focus={{
-                    bg: useColorModeValue("gray.700", "gray.600"),
+                    bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
                     outline: "none",
                   }}
                 >
@@ -108,6 +95,7 @@ export default function Projects() {
                   fontWeight="bold"
                   textTransform="uppercase"
                   color={useColorModeValue("gray.800", "white")}
+                  fontSize={{ base: "3xl", sm: "4xl" }}
                   letterSpacing={1}
                 >
                   Quiz Game
@@ -115,7 +103,7 @@ export default function Projects() {
               </a>
               <a href="https://quizgame-eight.vercel.app/" target="blank">
                 <chakra.button
-                  bg="gray.800"
+                  bg="rgb(71, 83, 248)"
                   fontSize="xs"
                   fontWeight="bold"
                   color="white"
@@ -124,7 +112,7 @@ export default function Projects() {
                   rounded="lg"
                   textTransform="uppercase"
                   _hover={{
-                    bg: useColorModeValue("gray.700", "gray.600"),
+                    bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
                   }}
                   _focus={{
                     bg: useColorModeValue("gray.700", "gray.600"),
@@ -147,13 +135,12 @@ export default function Projects() {
 
             <Box
               w={{ base: 56, md: 64 }}
-              bg={useColorModeValue("white", "gray.800")}
+              bg={useColorModeValue("gray.200", "gray.800")}
               mt={-10}
               shadow="lg"
               rounded="lg"
               overflow="hidden"
             >
-              {" "}
               <a href="https://dut.vercel.app" target="blank">
                 <chakra.h3
                   py={2}
@@ -161,6 +148,7 @@ export default function Projects() {
                   fontWeight="bold"
                   textTransform="uppercase"
                   color={useColorModeValue("gray.800", "white")}
+                  fontSize={{ base: "3xl", sm: "4xl" }}
                   letterSpacing={1}
                 >
                   DUT Website
@@ -168,7 +156,7 @@ export default function Projects() {
               </a>
               <a href="https://dut.vercel.app" target="blank">
                 <chakra.button
-                  bg="gray.800"
+                  bg="rgb(71, 83, 248)"
                   fontSize="xs"
                   fontWeight="bold"
                   color="white"
@@ -177,7 +165,7 @@ export default function Projects() {
                   rounded="lg"
                   textTransform="uppercase"
                   _hover={{
-                    bg: useColorModeValue("gray.700", "gray.600"),
+                    bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
                   }}
                   _focus={{
                     bg: useColorModeValue("gray.700", "gray.600"),
