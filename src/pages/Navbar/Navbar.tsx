@@ -1,22 +1,6 @@
-import {
-  Box,
-  chakra,
-  Collapse,
-  Drawer,
-  DrawerContent,
-  DrawerOverlay,
-  Flex,
-  Icon,
-  Text,
-  useColorModeValue,
-  useDisclosure,
-} from "@chakra-ui/react";
-import { FaPhone, FaRss } from "react-icons/fa";
+import { Box } from "@chakra-ui/react";
 
-import { HiCode, HiCollection } from "react-icons/hi";
-import { MdHome, MdKeyboardArrowRight } from "react-icons/md";
-
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

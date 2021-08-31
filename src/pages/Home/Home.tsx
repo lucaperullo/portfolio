@@ -19,44 +19,35 @@ export default function Home() {
       alignItems="center"
       pos="absolute"
     >
+      <div>
+        <chakra.h2 fontSize={{ base: "6xl", md: "4xl" }}>Hi, I am</chakra.h2>
+        <chakra.h1
+          mb={3}
+          fontSize={{ base: "4xl", md: "4xl" }}
+          fontWeight="bold"
+          lineHeight="shorter"
+          color={useColorModeValue("gray.900", "white")}
+        >
+          LUCA PERULLO
+        </chakra.h1>
+        <chakra.p
+          mb={2}
+          fontSize="xs"
+          fontWeight="semibold"
+          letterSpacing="wide"
+          color="gray.400"
+          textTransform="uppercase"
+        >
+          FULL STACK DEVELOPER
+        </chakra.p>
+      </div>
       <Flex py={36}>
         <Box w="full" h="full" mx="auto">
-          <video
-            autoPlay
-            muted
-            loop
-            className="avatar-video"
-            src="./hihi.mp4"
-          ></video>
-          <div
-            style={{
-              position: "absolute",
-              top: "100px",
-              right: "25vw",
-            }}
-          >
-            <chakra.h2 fontSize={{ base: "6xl", md: "4xl" }}>
-              Hi, I am
-            </chakra.h2>
-            <chakra.h1
-              mb={3}
-              fontSize={{ base: "4xl", md: "4xl" }}
-              fontWeight="bold"
-              lineHeight="shorter"
-              color={useColorModeValue("gray.900", "white")}
-            >
-              LUCA PERULLO
-            </chakra.h1>
-            <chakra.p
-              mb={2}
-              fontSize="xs"
-              fontWeight="semibold"
-              letterSpacing="wide"
-              color="gray.400"
-              textTransform="uppercase"
-            >
-              FULL STACK DEVELOPER
-            </chakra.p>
+          <div>
+            <img
+              className="welcome-image"
+              src="https://media.discordapp.net/attachments/702215602106007573/882369153363742800/AREmoji_20210831_204843_447.gif?width=703&height=703"
+            ></img>
           </div>
 
           <chakra.p mb={5} color="gray.100" fontSize={{ md: "lg" }}></chakra.p>
