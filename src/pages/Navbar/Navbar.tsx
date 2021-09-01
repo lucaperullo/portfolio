@@ -44,10 +44,10 @@ export default function Navbar() {
             </SwiperSlide>
 
             <SwiperSlide>
-              <Tecnologies />
+              <Projects />
             </SwiperSlide>
             <SwiperSlide>
-              <Projects />
+              <Tecnologies />
             </SwiperSlide>
             {/* <SwiperSlide>About Me</SwiperSlide> */}
             <SwiperSlide>

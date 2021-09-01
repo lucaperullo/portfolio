@@ -62,7 +62,31 @@ body {
   width: 350px !important;
   filter: drop-shadow(40px 40px 10px rgba(0, 0, 0, 0.5));
 }
+.box-holder-luca {
+  position: relative;
+  bottom: -145px;
+  right: -285px;
+  height: 300px !important;
+  width: 300px !important;
+  filter: drop-shadow(50px -20px 12px rgba(0, 0, 0, 0.596));
+}
+.email-button {
+  width: 335px;
 
+  transition: 0.25s ease;
+  font-weight: 100;
+  position: absolute;
+  font-size: 32px;
+  bottom: 200px;
+  color: white;
+  text-align: center;
+  background-color: rgba(34, 37, 219, 0.384);
+  padding: 7px;
+  border-radius: 10px;
+}
+.email-button:hover {
+  background-color: rgb(86, 86, 230);
+}
 .arrowDown {
   cursor: move;
   position: absolute;

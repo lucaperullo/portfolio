@@ -23,59 +23,6 @@ export default function Projects() {
           <Flex direction="column" alignItems="center">
             <img
               className="project-image"
-              src="https://media.discordapp.net/attachments/702215602106007573/882379519523192912/unknown.png?width=1329&height=671"
-              alt=""
-            />
-
-            <Box
-              w={{ base: 56, md: 64 }}
-              bg={useColorModeValue("white", "gray.800")}
-              mt={-10}
-              shadow="lg"
-              rounded="lg"
-              overflow="hidden"
-            >
-              <a href="https://ourmusic.vercel.app/" target="blank">
-                <chakra.h3
-                  py={2}
-                  textAlign="center"
-                  fontWeight="bold"
-                  textTransform="uppercase"
-                  color={useColorModeValue("gray.800", "white")}
-                  fontSize={{ base: "3xl", sm: "4xl" }}
-                  letterSpacing={1}
-                >
-                  Ourmusic
-                </chakra.h3>
-              </a>
-              <a href="https://ourmusic.vercel.app/" target="blank">
-                <chakra.button
-                  bg="rgb(71, 83, 248)"
-                  fontSize="xs"
-                  fontWeight="bold"
-                  color="white"
-                  px={2}
-                  py={1}
-                  rounded="lg"
-                  textTransform="uppercase"
-                  _hover={{
-                    bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
-                  }}
-                  _focus={{
-                    bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
-                    outline: "none",
-                  }}
-                >
-                  Visit app
-                </chakra.button>
-              </a>
-            </Box>
-          </Flex>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Flex direction="column" alignItems="center">
-            <img
-              className="project-image"
               src="https://media.discordapp.net/attachments/702215602106007573/882343542209523712/unknown.png?width=1363&height=671"
               alt=""
             />
@@ -104,11 +51,11 @@ export default function Projects() {
               <a href="https://quizgame-eight.vercel.app/" target="blank">
                 <chakra.button
                   bg="rgb(71, 83, 248)"
-                  fontSize="xs"
+                  fontSize="md"
                   fontWeight="bold"
                   color="white"
-                  px={2}
-                  py={1}
+                  px={5}
+                  py={3}
                   rounded="lg"
                   textTransform="uppercase"
                   _hover={{
@@ -119,7 +66,7 @@ export default function Projects() {
                     outline: "none",
                   }}
                 >
-                  Visit app
+                  Visit game
                 </chakra.button>
               </a>
             </Box>
@@ -151,17 +98,17 @@ export default function Projects() {
                   fontSize={{ base: "3xl", sm: "4xl" }}
                   letterSpacing={1}
                 >
-                  DUT Website
+                  DUT
                 </chakra.h3>
               </a>
               <a href="https://dut.vercel.app" target="blank">
                 <chakra.button
                   bg="rgb(71, 83, 248)"
-                  fontSize="xs"
+                  fontSize="md"
                   fontWeight="bold"
                   color="white"
-                  px={2}
-                  py={1}
+                  px={5}
+                  py={3}
                   rounded="lg"
                   textTransform="uppercase"
                   _hover={{
@@ -169,6 +116,59 @@ export default function Projects() {
                   }}
                   _focus={{
                     bg: useColorModeValue("gray.700", "gray.600"),
+                    outline: "none",
+                  }}
+                >
+                  Visit page
+                </chakra.button>
+              </a>
+            </Box>
+          </Flex>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Flex direction="column" alignItems="center">
+            <img
+              className="project-image"
+              src="https://media.discordapp.net/attachments/702215602106007573/882379519523192912/unknown.png?width=1329&height=671"
+              alt=""
+            />
+
+            <Box
+              w={{ base: 56, md: 64 }}
+              bg={useColorModeValue("white", "gray.800")}
+              mt={-10}
+              shadow="lg"
+              rounded="lg"
+              overflow="hidden"
+            >
+              <a href="https://ourmusic.vercel.app/" target="blank">
+                <chakra.h3
+                  py={2}
+                  textAlign="center"
+                  fontWeight="bold"
+                  textTransform="uppercase"
+                  color={useColorModeValue("gray.800", "white")}
+                  fontSize={{ base: "3xl", sm: "4xl" }}
+                  letterSpacing={1}
+                >
+                  Ourmusic
+                </chakra.h3>
+              </a>
+              <a href="https://ourmusic.vercel.app/" target="blank">
+                <chakra.button
+                  bg="rgb(71, 83, 248)"
+                  fontSize="md"
+                  fontWeight="bold"
+                  color="white"
+                  px={5}
+                  py={3}
+                  rounded="lg"
+                  textTransform="uppercase"
+                  _hover={{
+                    bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
+                  }}
+                  _focus={{
+                    bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
                     outline: "none",
                   }}
                 >
