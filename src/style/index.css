@@ -64,7 +64,7 @@ body {
 }
 .box-holder-luca {
   position: relative;
-  bottom: -145px;
+  bottom: -125px;
   right: -285px;
   height: 300px !important;
   width: 300px !important;
@@ -75,9 +75,9 @@ body {
 
   transition: 0.25s ease;
   font-weight: 100;
-  position: absolute;
+  position: relative;
   font-size: 32px;
-  bottom: 200px;
+  bottom: -220px;
   color: white;
   text-align: center;
   background-color: rgba(34, 37, 219, 0.384);
@@ -94,6 +94,55 @@ body {
   width: 100px !important;
   bottom: 0;
   animation: upanddown 2s infinite alternate-reverse;
+}
+.contact-button {
+  position: relative;
+  top: 40px;
+  margin-right: 10px;
+  padding-right: 10px !important;
+  height: 120px !important;
+  width: 120px !important;
+}
+@media screen and (max-width: 992px) {
+  .box-holder-luca {
+    position: relative;
+    bottom: -125px;
+    right: -225px;
+    height: 300px !important;
+    width: 300px !important;
+    filter: drop-shadow(50px -20px 12px rgba(0, 0, 0, 0.596));
+  }
+  .email-button {
+    width: 275px;
+    font-size: 22px !important;
+    transition: 0.25s ease;
+    font-weight: 100;
+    position: relative;
+    font-size: 32px;
+    bottom: -220px;
+    color: white;
+    text-align: center;
+    background-color: rgba(34, 37, 219, 0.384);
+    padding: 7px;
+    border-radius: 10px;
+  }
+  .contact-button {
+    position: relative;
+    top: -100px;
+    margin-right: 10px;
+    padding-right: 10px !important;
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .contact-icon {
+    font-size: 30px !important;
+  }
+  .tecnologies-text-top {
+    display: none;
+  }
+  .project-image-container {
+    height: 100vh !important;
+  }
 }
 @keyframes upanddown {
   from {

@@ -51,8 +51,9 @@ export default function Tecnologies() {
   };
   return (
     <Flex
+      style={{ maxHeight: "100vh" }}
       bg={useColorModeValue("rgb(31, 27, 58)", "gray.600")}
-      p={20}
+      p={10}
       w="auto"
       justifyContent="center"
       alignItems="center"
@@ -70,7 +71,7 @@ export default function Tecnologies() {
             </chakra.h2>
             <chakra.p
               mt={2}
-              fontSize={{ base: "3xl", sm: "4xl" }}
+              fontSize={{ base: "2xl", sm: "4xl" }}
               lineHeight="10"
               fontWeight="extrabold"
               letterSpacing="tight"
@@ -80,6 +81,7 @@ export default function Tecnologies() {
               <br /> Chakra UI, TypeScript, Ionic and much more.
             </chakra.p>
             <chakra.p
+              className="tecnologies-text-top"
               mt={4}
               maxW="2xl"
               fontSize="xl"
@@ -106,12 +108,14 @@ export default function Tecnologies() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                    d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
                   />
                 }
               >
-                Maximum flexibility and minimum constraints for the best use of
-                your time!
+                <chakra.p className="tecnologies-text-top">
+                  Maximum flexibility and minimum constraints for the best use
+                  of your time!
+                </chakra.p>
               </Feature>
 
               <Feature
@@ -125,8 +129,10 @@ export default function Tecnologies() {
                   />
                 }
               >
-                Continuous integration and deployment of your software or
-                application.
+                <chakra.p className="tecnologies-text-top">
+                  Continuous integration and deployment of your software or
+                  application.
+                </chakra.p>
               </Feature>
 
               <Feature
@@ -140,9 +146,11 @@ export default function Tecnologies() {
                   />
                 }
               >
-                Communicating openly and honestly with the team members and
-                cultivating a culture where information can flow freely between
-                people.
+                <chakra.p className="tecnologies-text-top">
+                  Communicating openly and honestly with the team members and
+                  cultivating a culture where information can flow freely
+                  between people.
+                </chakra.p>
               </Feature>
 
               <Feature
@@ -152,13 +160,15 @@ export default function Tecnologies() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                   />
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                <chakra.p className="tecnologies-text-top">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Maiores impedit perferendis suscipit eaque, iste dolor
+                  cupiditate blanditiis ratione.
+                </chakra.p>
               </Feature>
             </Stack>
           </Box>

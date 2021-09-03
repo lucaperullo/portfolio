@@ -13,10 +13,11 @@ export default function Contacts() {
 
           height: "100px",
           width: "500px",
-          fontSize: "60px",
+
           color: "white",
           textAlign: "center",
         }}
+        fontSize={{ base: "5xl", lg: "7xl" }}
       >
         Contact me here
       </chakra.h1>
@@ -32,40 +33,40 @@ export default function Contacts() {
         <div style={{ marginTop: "200px" }}>
           <a href="https://github.com/lucaperullo" target="blank">
             <Button
-              style={{
-                marginRight: "10px",
-                paddingRight: "10px",
-                height: "120px",
-                width: "120px",
-              }}
+              className="contact-button"
               colorScheme={"blackAlpha"}
-              leftIcon={<SiGithub style={{ fontSize: "100px" }} />}
+              leftIcon={
+                <SiGithub
+                  style={{ fontSize: "100px" }}
+                  className="contact-icon"
+                />
+              }
             ></Button>
           </a>
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/luca-perullo/" target="blank">
             <Button
-              style={{
-                marginRight: "10px",
-                paddingRight: "10px",
-                height: "120px",
-                width: "120px",
-              }}
+              className="contact-button"
               colorScheme={"messenger"}
-              leftIcon={<SiLinkedin style={{ fontSize: "100px" }} />}
+              leftIcon={
+                <SiLinkedin
+                  style={{ fontSize: "100px" }}
+                  className="contact-icon"
+                />
+              }
             ></Button>
           </a>
           {/* Messenger */}
           <a href="" target="blank">
             <Button
-              style={{
-                marginRight: "10px",
-                paddingRight: "10px",
-                height: "120px",
-                width: "120px",
-              }}
+              className="contact-button"
               colorScheme={"whatsapp"}
-              leftIcon={<SiWhatsapp style={{ fontSize: "100px" }} />}
+              leftIcon={
+                <SiWhatsapp
+                  style={{ fontSize: "100px" }}
+                  className="contact-icon"
+                />
+              }
             ></Button>
           </a>
           <chakra.h3

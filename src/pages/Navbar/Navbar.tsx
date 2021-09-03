@@ -23,8 +23,9 @@ export default function Navbar() {
   return (
     <Box transition=".3s ease">
       <Box>
-        <div style={{ height: "100vh" }}>
+        <div>
           <Swiper
+            style={{ height: "100vh" }}
             effect={"coverflow"}
             coverflowEffect={{
               rotate: 50,
