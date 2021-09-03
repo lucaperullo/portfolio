@@ -80,25 +80,27 @@ export default function Projects() {
               src="https://media.discordapp.net/attachments/702215602106007573/883424217448722442/unknown.png?width=311&height=670"
               alt=""
             />
-            <chakra.button
-              bg="rgb(71, 83, 248)"
-              fontSize="md"
-              fontWeight="bold"
-              color="white"
-              px={5}
-              py={3}
-              rounded="lg"
-              textTransform="uppercase"
-              _hover={{
-                bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
-              }}
-              _focus={{
-                bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
-                outline: "none",
-              }}
-            >
-              Try app
-            </chakra.button>
+            <a href="https://quizgame-eight.vercel.app/" target="blank">
+              <chakra.button
+                bg="rgb(71, 83, 248)"
+                fontSize="md"
+                fontWeight="bold"
+                color="white"
+                px={5}
+                py={3}
+                rounded="lg"
+                textTransform="uppercase"
+                _hover={{
+                  bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
+                }}
+                _focus={{
+                  bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
+                  outline: "none",
+                }}
+              >
+                Try app
+              </chakra.button>
+            </a>
           </div>
         </SwiperSlide>
 
@@ -166,25 +168,27 @@ export default function Projects() {
               src="https://media.discordapp.net/attachments/702215602106007573/883423587552354374/unknown.png?width=309&height=670"
               alt=""
             />
-            <chakra.button
-              bg="rgb(71, 83, 248)"
-              fontSize="md"
-              fontWeight="bold"
-              color="white"
-              px={5}
-              py={3}
-              rounded="lg"
-              textTransform="uppercase"
-              _hover={{
-                bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
-              }}
-              _focus={{
-                bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
-                outline: "none",
-              }}
-            >
-              Visit
-            </chakra.button>
+            <a href="https://dut.vercel.app" target="blank">
+              <chakra.button
+                bg="rgb(71, 83, 248)"
+                fontSize="md"
+                fontWeight="bold"
+                color="white"
+                px={5}
+                py={3}
+                rounded="lg"
+                textTransform="uppercase"
+                _hover={{
+                  bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
+                }}
+                _focus={{
+                  bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
+                  outline: "none",
+                }}
+              >
+                Visit
+              </chakra.button>
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -248,25 +252,27 @@ export default function Projects() {
               src="https://media.discordapp.net/attachments/702215602106007573/883422652683927562/unknown.png?width=309&height=671"
               alt=""
             />
-            <chakra.button
-              bg="rgb(71, 83, 248)"
-              fontSize="md"
-              fontWeight="bold"
-              color="white"
-              px={5}
-              py={3}
-              rounded="lg"
-              textTransform="uppercase"
-              _hover={{
-                bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
-              }}
-              _focus={{
-                bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
-                outline: "none",
-              }}
-            >
-              Try app
-            </chakra.button>
+            <a href="https://ourmusic.vercel.app/" target="blank">
+              <chakra.button
+                bg="rgb(71, 83, 248)"
+                fontSize="md"
+                fontWeight="bold"
+                color="white"
+                px={5}
+                py={3}
+                rounded="lg"
+                textTransform="uppercase"
+                _hover={{
+                  bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
+                }}
+                _focus={{
+                  bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
+                  outline: "none",
+                }}
+              >
+                Try app
+              </chakra.button>
+            </a>
           </div>
         </SwiperSlide>
       </Swiper>
