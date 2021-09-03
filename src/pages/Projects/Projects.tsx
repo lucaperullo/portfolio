@@ -74,7 +74,32 @@ export default function Projects() {
               </Box>
             </Flex>
           </div>
-          <div className="mobile-projects"></div>
+          <div className="mobile-projects">
+            <img
+              style={{ height: "90vh" }}
+              src="https://media.discordapp.net/attachments/702215602106007573/883424217448722442/unknown.png?width=311&height=670"
+              alt=""
+            />
+            <chakra.button
+              bg="rgb(71, 83, 248)"
+              fontSize="md"
+              fontWeight="bold"
+              color="white"
+              px={5}
+              py={3}
+              rounded="lg"
+              textTransform="uppercase"
+              _hover={{
+                bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
+              }}
+              _focus={{
+                bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
+                outline: "none",
+              }}
+            >
+              Try app
+            </chakra.button>
+          </div>
         </SwiperSlide>
 
         <SwiperSlide>
@@ -135,7 +160,32 @@ export default function Projects() {
               </Box>
             </Flex>
           </div>
-          <div className="mobile-projects"></div>
+          <div className="mobile-projects">
+            <img
+              style={{ height: "90vh" }}
+              src="https://media.discordapp.net/attachments/702215602106007573/883423587552354374/unknown.png?width=309&height=670"
+              alt=""
+            />
+            <chakra.button
+              bg="rgb(71, 83, 248)"
+              fontSize="md"
+              fontWeight="bold"
+              color="white"
+              px={5}
+              py={3}
+              rounded="lg"
+              textTransform="uppercase"
+              _hover={{
+                bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
+              }}
+              _focus={{
+                bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
+                outline: "none",
+              }}
+            >
+              Visit
+            </chakra.button>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="projects">
@@ -193,8 +243,30 @@ export default function Projects() {
             </Flex>
           </div>
           <div className="mobile-projects">
-            <img src="" alt="" />
-            <chakra.button>Visit</chakra.button>
+            <img
+              style={{ height: "90vh" }}
+              src="https://media.discordapp.net/attachments/702215602106007573/883422652683927562/unknown.png?width=309&height=671"
+              alt=""
+            />
+            <chakra.button
+              bg="rgb(71, 83, 248)"
+              fontSize="md"
+              fontWeight="bold"
+              color="white"
+              px={5}
+              py={3}
+              rounded="lg"
+              textTransform="uppercase"
+              _hover={{
+                bg: useColorModeValue("rgb(59, 152, 214)", "gray.600"),
+              }}
+              _focus={{
+                bg: useColorModeValue("rgb(71, 178, 250)", "gray.600"),
+                outline: "none",
+              }}
+            >
+              Try app
+            </chakra.button>
           </div>
         </SwiperSlide>
       </Swiper>

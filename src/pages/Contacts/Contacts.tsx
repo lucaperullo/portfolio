@@ -30,7 +30,7 @@ export default function Contacts() {
           alignItems: "center",
         }}
       >
-        <div style={{ marginTop: "200px" }}>
+        <div style={{ marginTop: "300px" }}>
           <a href="https://github.com/lucaperullo" target="blank">
             <Button
               className="contact-button"
@@ -72,7 +72,7 @@ export default function Contacts() {
           <chakra.h3
             style={{
               fontWeight: 100,
-              marginTop: "100px",
+
               marginBottom: "-100px",
               fontSize: "40px",
               color: "white",
