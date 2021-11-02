@@ -11,17 +11,22 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
       <Flex
         style={{ padding: "200px", paddingTop: "350px" }}
-        bg={useColorModeValue("rgb(31, 27, 58)", "gray.600")}
+        bg={useColorModeValue("#5A008F", "#EBF2FF")}
         w="full"
         justifyContent="center"
         alignItems="center"
       >
         <div>
           <chakra.h2
-            color={useColorModeValue("gray.100", "white")}
+            color={useColorModeValue("#fff", "#000")}
             fontSize={{ base: "6xl", md: "4xl" }}
           >
             HI, I AM
@@ -31,16 +36,21 @@ export default function Home() {
             fontSize={{ base: "6xl", md: "6xl" }}
             fontWeight="bold"
             lineHeight="shorter"
-            color={useColorModeValue("gray.100", "white")}
+            color={useColorModeValue("#fff", "#000")}
+            style={{ fontFamily: "Mali" }}
           >
             LUCA PERULLO
           </chakra.h1>
           <chakra.p
             mb={2}
             fontSize="md"
-            fontWeight="semibold"
+            fontWeight="thin"
             letterSpacing="wide"
-            color="gray.400"
+            color={useColorModeValue("#fff", "#fff")}
+            bgGradient={useColorModeValue(
+              "linear(to-r, green.400,purple.500)",
+              "linear(to-r, purple.500,blue.400)"
+            )}
             textTransform="uppercase"
           >
             MERN FULL STACK DEVELOPER

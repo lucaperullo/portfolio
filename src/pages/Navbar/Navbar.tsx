@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Button, useColorModeValue, useColorMode } from "@chakra-ui/react";
 
 import React from "react";
 // Import Swiper React components
@@ -10,34 +10,81 @@ import "swiper/css/pagination";
 import "../../style/index.css";
 
 // import Swiper core and required modules
-import SwiperCore, { Mousewheel, EffectCoverflow } from "swiper";
+import SwiperCore, { Mousewheel, EffectCoverflow, Keyboard } from "swiper";
 import Home from "../../pages/Home/Home";
 import Projects from "../../pages/Projects/Projects";
 import Tecnologies from "../../pages/Tecnologies/Tecnologies";
 import Contacts from "../../pages/Contacts/Contacts";
 
 // install Swiper modules
-SwiperCore.use([Mousewheel, EffectCoverflow]);
+SwiperCore.use([Mousewheel, EffectCoverflow, Keyboard]);
 
 export default function Navbar() {
+  const { colorMode, toggleColorMode } = useColorMode();
+  React.useEffect(() => {
+    localStorage.clear();
+  }, []);
   return (
-    <Box transition=".3s ease">
+    <Box bg={useColorModeValue("#5A008F", "#EBF2FF")} transition=".3s ease">
       <Box>
         <div>
+          {/* <header
+            style={{ backgroundColor: useColorModeValue("#27003D", "#A1A2E2") }}
+            className="bottomheader"
+          ></header> */}
+          <header
+            style={{ backgroundColor: useColorModeValue("#27003D", "#A1A2E2") }}
+            className="settings"
+          >
+            <div
+              style={{
+                backgroundColor: useColorModeValue("#27003D", "#A1A2E2"),
+              }}
+              className="switch"
+            >
+              <input
+                onClick={toggleColorMode}
+                type="checkbox"
+                name="toggle"
+                value={colorMode}
+              />
+              <label>
+                <i className="bulb">
+                  <span className="bulb-center"></span>
+                  <span className="filament-1"></span>
+                  <span className="filament-2"></span>
+                  <span className="reflections">
+                    <span></span>
+                  </span>
+                  <span className="sparks">
+                    <i className="spark1"></i>
+                    <i className="spark2"></i>
+                    <i className="spark3"></i>
+                    <i className="spark4"></i>
+                  </span>
+                </i>
+              </label>
+            </div>
+          </header>
+
           <Swiper
-            style={{ height: "100vh" }}
+            style={{
+              height: "100vh",
+              backgroundColor: useColorModeValue("#5A008F", "#EBF2FF"),
+            }}
             effect={"coverflow"}
             coverflowEffect={{
-              rotate: 50,
+              rotate: 120,
               stretch: 0,
               depth: 100,
-              modifier: 1,
+              modifier: 0,
               slideShadows: true,
             }}
             direction={"vertical"}
             slidesPerView={1}
             spaceBetween={30}
             mousewheel={true}
+            keyboard={{ enabled: true }}
             className="mySwiper"
           >
             <SwiperSlide>
