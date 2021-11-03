@@ -28,7 +28,7 @@ export default function Contacts() {
             marginBottom: "100px",
             textAlign: "center",
           }}
-          color={useColorModeValue("#fff", "#000")}
+          color={"#fff"}
           fontSize={{ base: "5xl", lg: "7xl" }}
         >
           Contact me here
@@ -78,7 +78,7 @@ export default function Contacts() {
             fontWeight: 100,
 
             fontSize: "40px",
-            color: useColorModeValue("#fff", "#000"),
+            color: "#fff",
             textAlign: "center",
           }}
         >
@@ -87,7 +87,7 @@ export default function Contacts() {
         <div>
           <a
             className="email-button"
-            style={{ color: useColorModeValue("#fff", "#000") }}
+            style={{ color: "#fff" }}
             href="mailto: lucaperullo@outlook.it"
           >
             lucaperullo@outlook.it

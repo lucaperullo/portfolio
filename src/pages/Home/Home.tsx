@@ -19,16 +19,13 @@ export default function Home() {
     >
       <Flex
         style={{ padding: "200px", paddingTop: "350px" }}
-        bg={useColorModeValue("#5A008F", "#EBF2FF")}
+        bg={useColorModeValue("#000", "#410166")}
         w="full"
         justifyContent="center"
         alignItems="center"
       >
         <div>
-          <chakra.h2
-            color={useColorModeValue("#fff", "#000")}
-            fontSize={{ base: "6xl", md: "4xl" }}
-          >
+          <chakra.h2 color={"#fff"} fontSize={{ base: "6xl", md: "4xl" }}>
             HI, I AM
           </chakra.h2>
           <chakra.h1
@@ -36,7 +33,7 @@ export default function Home() {
             fontSize={{ base: "6xl", md: "6xl" }}
             fontWeight="bold"
             lineHeight="shorter"
-            color={useColorModeValue("#fff", "#000")}
+            color={"#fff"}
             style={{ fontFamily: "Mali" }}
           >
             LUCA PERULLO
