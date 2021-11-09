@@ -50,7 +50,7 @@ export default function Tecnologies() {
     );
   };
   return (
-    <Box py={12} bg={useColorModeValue("#410066", "#fff")} rounded="xl">
+    <Box py={12} bg={useColorModeValue("#27003D", "#fff")} rounded="xl">
       <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
         <Box textAlign={{ lg: "center" }}>
           <chakra.h2
