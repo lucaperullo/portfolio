@@ -19,7 +19,7 @@ export default function Home() {
     >
       <Flex
         style={{ padding: "200px", paddingTop: "350px" }}
-        bg={useColorModeValue("#000", "#410166")}
+        bg={useColorModeValue("#410166", "#85B4FF")}
         w="full"
         justifyContent="center"
         alignItems="center"

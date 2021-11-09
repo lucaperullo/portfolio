@@ -25,7 +25,7 @@ export default function Navbar() {
     localStorage.clear();
   }, []);
   return (
-    <Box bg={useColorModeValue("#000", "#410166")} transition=".3s ease">
+    <Box bg={useColorModeValue("#410166", "#85B4FF")} transition=".3s ease">
       <Box>
         <div>
           {/* <header
@@ -33,12 +33,12 @@ export default function Navbar() {
             className="bottomheader"
           ></header> */}
           <header
-            style={{ backgroundColor: useColorModeValue("#27003D", "#27003D") }}
+            style={{ backgroundColor: useColorModeValue("#27003D", "#0A68FF") }}
             className="settings"
           >
             <div
               style={{
-                backgroundColor: useColorModeValue("#27003D", "#27003D"),
+                backgroundColor: useColorModeValue("#27003D", "#0A68FF"),
               }}
               className="switch"
             >
@@ -70,7 +70,7 @@ export default function Navbar() {
           <Swiper
             style={{
               height: "100vh",
-              backgroundColor: useColorModeValue("#000", "#410166"),
+              backgroundColor: useColorModeValue("#410166", "#85B4FF"),
             }}
             effect={"coverflow"}
             coverflowEffect={{

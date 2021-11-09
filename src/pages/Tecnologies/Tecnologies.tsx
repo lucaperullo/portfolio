@@ -38,11 +38,11 @@ export default function Tecnologies() {
             fontSize="lg"
             fontWeight="medium"
             lineHeight="6"
-            color={useColorModeValue("#fff", "#000")}
+            color={useColorModeValue("#fff", "#410166")}
           >
             {props.title}
           </chakra.dt>
-          <chakra.dd mt={2} color={useColorModeValue("#fff", "#000")}>
+          <chakra.dd mt={2} color={useColorModeValue("#fff", "#410166")}>
             {props.children}
           </chakra.dd>
         </Box>
@@ -54,7 +54,7 @@ export default function Tecnologies() {
       <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
         <Box textAlign={{ lg: "center" }}>
           <chakra.h2
-            color={useColorModeValue("#fff", "#000")}
+            color={useColorModeValue("#fff", "#410166")}
             fontWeight="semibold"
             textTransform="uppercase"
             letterSpacing="wide"
@@ -67,7 +67,7 @@ export default function Tecnologies() {
             lineHeight="10"
             fontWeight="extrabold"
             letterSpacing="tight"
-            color={useColorModeValue("#fff", "#000")}
+            color={useColorModeValue("#fff", "#410166")}
           >
             Mongo DB, Express, React JS, Node JS,
             <br /> Chakra UI, TypeScript, Ionic and much more.
@@ -78,7 +78,7 @@ export default function Tecnologies() {
             maxW="2xl"
             fontSize="xl"
             mx={{ lg: "auto" }}
-            color={useColorModeValue("#fff", "#000")}
+            color={useColorModeValue("#fff", "#410166")}
           >
             My applications are built with the latest technologies to offer the
             best possible.

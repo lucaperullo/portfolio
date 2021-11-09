@@ -21,7 +21,7 @@ export default function Projects() {
         className="mySwiper"
       >
         <SwiperSlide
-          style={{ backgroundColor: useColorModeValue("#000", "#410166") }}
+          style={{ backgroundColor: useColorModeValue("#410166", "#85B4FF") }}
         >
           <div className="projects">
             <Flex direction="column" alignItems="center">
@@ -63,7 +63,7 @@ export default function Projects() {
         </SwiperSlide>
 
         <SwiperSlide
-          style={{ backgroundColor: useColorModeValue("#000", "#410166") }}
+          style={{ backgroundColor: useColorModeValue("#410166", "#85B4FF") }}
         >
           <div className="projects">
             <img
@@ -100,7 +100,7 @@ export default function Projects() {
           </div>
         </SwiperSlide>
         <SwiperSlide
-          style={{ backgroundColor: useColorModeValue("#000", "#410166") }}
+          style={{ backgroundColor: useColorModeValue("#410166", "#85B4FF") }}
         >
           <div className="projects">
             <Flex direction="column" alignItems="center">
