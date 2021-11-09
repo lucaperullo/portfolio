@@ -68,12 +68,18 @@ export default function Projects() {
           <div className="projects">
             <img
               className="project-img"
-              src="https://media.discordapp.net/attachments/773301662814699521/905210295033659442/unknown.png?width=1373&height=663"
+              src={useColorModeValue(
+                "https://media.discordapp.net/attachments/773301662814699521/905210295033659442/unknown.png?width=1373&height=663",
+                "https://media.discordapp.net/attachments/773301662814699521/907644022573641799/unknown.png?width=1365&height=662"
+              )}
             />
           </div>
           <div className="mobile-projects">
             <img
-              src="https://media.discordapp.net/attachments/702215602106007573/883423587552354374/unknown.png?width=309&height=670"
+              src={useColorModeValue(
+                "https://media.discordapp.net/attachments/773301662814699521/907645529322831922/unknown.png?width=347&height=662",
+                "https://media.discordapp.net/attachments/773301662814699521/907645208387264563/unknown.png?width=358&height=662"
+              )}
               className="project-img"
             />
             <a href="https://dut.vercel.app" target="blank">
@@ -106,14 +112,20 @@ export default function Projects() {
             <Flex direction="column" alignItems="center">
               <img
                 className="project-img"
-                src="https://media.discordapp.net/attachments/702215602106007573/882379519523192912/unknown.png?width=1329&height=671"
+                src={useColorModeValue(
+                  "https://media.discordapp.net/attachments/702215602106007573/882379519523192912/unknown.png?width=1329&height=671",
+                  "https://media.discordapp.net/attachments/773301662814699521/907647820914368622/unknown.png?width=1375&height=663"
+                )}
                 alt=""
               />
             </Flex>
           </div>
           <div className="mobile-projects">
             <img
-              src="https://media.discordapp.net/attachments/702215602106007573/883422652683927562/unknown.png?width=309&height=671"
+              src={useColorModeValue(
+                "https://media.discordapp.net/attachments/773301662814699521/907646521879691284/unknown.png?width=369&height=663",
+                "https://media.discordapp.net/attachments/773301662814699521/907646366128439337/unknown.png?width=368&height=663"
+              )}
               alt=""
               className="project-img"
             />
